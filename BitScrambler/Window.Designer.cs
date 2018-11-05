@@ -222,6 +222,7 @@
             this.Controls.Add(this.encKey);
             this.Controls.Add(this.filesSelected);
             this.Controls.Add(this.selectFileBtn);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Window";
             this.Text = "BitScrambler";
             this.Load += new System.EventHandler(this.Window_Load);
